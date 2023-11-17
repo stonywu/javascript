@@ -1,3 +1,8 @@
+function setup() {
+
+  createCanvas(400, 400);
+  strokeWeight(4);
+}
 function draw()
  {
 background(125, 255, 125);
@@ -26,4 +31,13 @@ background(125, 255, 125);
    arc(200,281,50,50,89,90);
    arc(150,180,17,35,90.1,87.5);
    arc(250,180,17,35,91.5,89);
+   fill(255,255,0)
+   strokeWeight(1);
+   rect(22,350,2,50);
+   ellipse(23,350,10);
+   rect(99,350,2,50);
+   ellipse(100,350,10);
+   rect(180,350,2,50);
+   ellipse(181,350,10);
+
  }
