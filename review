@@ -1,0 +1,43 @@
+function setup(){
+    createCanvas(windowWidth,windowHeight);
+}
+function mousePressed(){
+    if(mouseButton==LEFT);{
+      print("1");
+    }if(mouseButton==CENTER){
+      print("2");
+    }if(mouseButton==LEFT){
+      print("3");
+    }
+
+}
+
+
+function setup(){
+    createCanvas(windowWidth,windowHeight);
+}
+
+function draw(){
+    if (mouseIsPressed){
+        ellipse(mouseX,mouseY,50,50);
+        }
+}
+
+function setup(){
+    createCanvas(windowWidth,windowHeight);
+}
+function draw(){
+    if(!keyIsPressed){
+        ellipse(ramdom(width),random(height),50);
+    }
+}
+
+const RED=5;
+function setup(){
+    createCanvas(windowWidth,windowHeight);
+}
+
+function draw(){
+    strokeWeight(RED);
+    ellipse(mouseX,mouseY,50)
+}
